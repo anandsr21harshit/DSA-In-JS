@@ -19,8 +19,6 @@ function swap(array,index1,index2){
     array[index2] = temp;
 }
 
-console.log(swap([1,2,3,5],0,3));
-
 function pushZeroToEnd(array){
     let refPointer = 0;
 
